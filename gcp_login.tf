@@ -1,5 +1,5 @@
 provider "google" {
- #credentials = file("dummy-file.json")
- project     = "neon-shelter-262506"
+ credentials = file("dummy-file.json")
+ project     = "abc"
  region      = "${var.region}"
 }
